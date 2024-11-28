@@ -1,0 +1,89 @@
+function antentay() { 
+        h5gg.clearResults(); 
+        h5gg.searchNumber('4575657222443971598','F32','0x100000000', '0x160000000'); 
+        h5gg.editAll('4848124999899886606', 'F32');  
+        h5gg.clearResults(); 
+        h5gg.searchNumber('4575667224578539469','F32','0x100000000', '0x130000000'); 
+        h5gg.editAll('4848125002034454477', 'F32');  
+        h5gg.clearResults(); 
+     
+    vant.showNotify({ 
+        type: 'success', 
+        message: 'Buff Jump ' 
+   }); 
+    
+   }
+
+
+
+
+
+
+function so92() { 
+    h5gg.clearResults(); 
+    h5gg.searchNumber('4575657222443971598', 'I64', '0x100000000', '0x130000000'); 
+    h5gg.editAll('4848124999899886606', 'I64'); 
+    h5gg.clearResults(); 
+    h5gg.searchNumber('4575657224578539469', 'I64', '0x100000000', '0x130000000'); 
+    h5gg.editAll('4848125002034454477', 'I64'); 
+    vant.showNotify({ 
+        type: 'success', 
+        message: 'Antenna X3' 
+    }); 
+ 
+ 
+  }
+
+
+
+
+
+
+
+nction so90() { 
+    h5gg.clearResults(); 
+    h5gg.searchNumber('4575657222469899220', 'I64', '0x100000000', '0x160000000'); 
+    h5gg.editAll('4848124999925814228', 'I64'); 
+    h5gg.clearResults(); 
+    h5gg.searchNumber('4575657222469336965', 'I64', '0x100000000', '0x160000000'); 
+    h5gg.editAll('4848124999925251973', 'I64'); 
+    vant.showNotify({ 
+        type: 'success', 
+        message: 'Antenna X1' 
+    }); 
+ 
+ 
+}
+
+
+
+
+
+
+
+function s101s() { 
+    h5gg.clearResults(); 
+    h5gg.searchNumber('4603687625386098688', 'I64', '0x100000000', '0x160000000'); 
+    var count = h5gg.getResultsCount(); 
+    var r = h5gg.getResults(count); 
+    var cnt = 0; 
+    for (var i = 0; i < count; i++) { 
+        var addr1 = r[i].address; 
+ 
+        var dizhi0 = (Number(addr1) + 36); 
+        var dizhi1 = (Number(addr1) + 40); 
+ 
+ 
+ 
+        { 
+            h5gg.setValue(dizhi0, 0.01, "F32"); 
+            h5gg.setValue(dizhi1, 0.01, "F32"); 
+ 
+        } 
+    } 
+    vant.showNotify({ 
+        type: 'success', 
+        message: 'Awm Switch ' 
+    }); 
+ 
+ }
